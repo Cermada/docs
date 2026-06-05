@@ -34,15 +34,10 @@
     },
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index"
-        ]
-      },
-      {
         "group": "Getting Started with Physics",
         "icon": "atom",
         "pages": [
+          "physics/welcome",
           "physics/what-is-physics",
           "physics/motion",
           "physics/forces",
