@@ -32,30 +32,65 @@
         }
       ]
     },
-    "groups": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Getting Started with Physics",
+            "icon": "atom",
+            "pages": [
+              "physics/welcome",
+              "physics/what-is-physics",
+              "physics/motion",
+              "physics/forces",
+              "physics/energy",
+              "physics/momentum",
+              "physics/gravity",
+              "physics/pressure-and-fluids",
+              "physics/heat-and-temperature",
+              "physics/waves-and-sound",
+              "physics/electricity-and-magnetism",
+              "physics/problem-solving"
+            ]
+          }
         ]
       },
       {
-        "group": "Getting Started with Physics",
-        "icon": "atom",
-        "pages": [
-          "physics/welcome",
-          "physics/what-is-physics",
-          "physics/motion",
-          "physics/forces",
-          "physics/energy",
-          "physics/momentum",
-          "physics/gravity",
-          "physics/pressure-and-fluids",
-          "physics/heat-and-temperature",
-          "physics/waves-and-sound",
-          "physics/electricity-and-magnetism",
-          "physics/problem-solving"
+        "language": "id",
+        "groups": [
+          {
+            "group": "Memulai",
+            "pages": [
+              "id/index",
+              "id/quickstart"
+            ]
+          },
+          {
+            "group": "Memulai dengan Fisika",
+            "icon": "atom",
+            "pages": [
+              "id/physics/welcome",
+              "id/physics/what-is-physics",
+              "id/physics/motion",
+              "id/physics/forces",
+              "id/physics/energy",
+              "id/physics/momentum",
+              "id/physics/gravity",
+              "id/physics/pressure-and-fluids",
+              "id/physics/heat-and-temperature",
+              "id/physics/waves-and-sound",
+              "id/physics/electricity-and-magnetism",
+              "id/physics/problem-solving"
+            ]
+          }
         ]
       }
     ]
@@ -100,6 +135,11 @@
     {
       "source": "/index",
       "destination": "/physics/welcome",
+      "permanent": true
+    },
+    {
+      "source": "/id/index",
+      "destination": "/id/physics/welcome",
       "permanent": true
     }
   ]
