@@ -36,15 +36,13 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index",
-          "quickstart"
+          "index"
         ]
       },
       {
         "group": "Getting Started with Physics",
         "icon": "atom",
         "pages": [
-          "physics/welcome",
           "physics/what-is-physics",
           "physics/motion",
           "physics/forces",
@@ -95,5 +93,12 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/index",
+      "destination": "/physics/welcome",
+      "permanent": true
+    }
+  ]
 }
