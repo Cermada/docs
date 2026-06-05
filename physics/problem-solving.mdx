@@ -1,0 +1,132 @@
+---
+title: "Problem-Solving Toolkit"
+description: "How an engineer actually attacks a physics problem from a blank page."
+icon: "wrench"
+---
+
+## The dirty secret
+
+Most physics problems aren't hard. They just _look_ hard because they show up as a wall of text and your brain doesn't know where to start.
+
+Professional engineers don't solve problems by being smarter than you. They solve them by **following a routine.** Same routine every time. That routine is what this page is about.
+
+If you steal nothing else from this guide, steal this method.
+
+## The 6-step routine
+
+<Steps>
+  <Step title="Read the problem twice. Slowly.">
+    First read: get a feel for what's happening.
+
+    Second read: _picture the scene in your head._ If you can't, the problem isn't ready to be solved yet — keep reading until you can see it.
+  </Step>
+  <Step title="Draw it">
+    A box for the object. Arrows for forces. Labels for distances and speeds. **This is non-negotiable.** Even bad drawings beat no drawings.
+
+    Engineers draw things even when they don't need to, because the drawing is where most mistakes get caught.
+  </Step>
+  <Step title="List what you know and what you want">
+    Two columns:
+
+    | Known | Want |
+    | --- | --- |
+    | mass = 2 kg | final velocity = ? |
+    | initial v = 0 |  |
+    | force = 5 N |  |
+    | time = 3 s |  |
+
+    This step is magical. Half the time, just writing this list makes the answer obvious.
+  </Step>
+  <Step title="Pick the recipe (equation) that connects them">
+    Look at the equation cheat-sheet for this chapter. Find the one whose **left side** is what you want and whose **right side** uses only what you know.
+
+    If no single equation works, you'll need two — one to find an intermediate value, one to finish the job.
+  </Step>
+  <Step title="Plug in numbers. Keep units.">
+    Always carry units through the calculation. If the final units don't match what you expected (e.g., you wanted meters but got seconds), you made a mistake. Units catch errors better than any other technique.
+  </Step>
+  <Step title="Sanity check">
+    Look at the answer and ask: _"Does this make sense in the real world?"_
+
+    A car shouldn't accelerate at 5,000 m/s². A person shouldn't weigh 3 N. If the number is absurd, you misplaced a decimal or used the wrong equation. Catch it now, not on the exam.
+  </Step>
+</Steps>
+
+## The decision tree: which approach to use?
+
+When you don't know whether to attack a problem with forces, energy, or momentum:
+
+<AccordionGroup>
+  <Accordion title="Does it involve a collision or explosion?" icon="car-burst">
+    Use **momentum conservation**. Compare before vs. after. Ignore the messy middle.
+  </Accordion>
+
+  <Accordion title="Does it involve heights, speeds, springs, or 'how fast at the bottom?'" icon="bolt">
+    Use **energy conservation**. Add up KE and PE at the start, set equal to KE and PE at the end. Done.
+  </Accordion>
+
+  <Accordion title="Does it ask for acceleration or detailed motion at a specific moment?" icon="hand-fist">
+    Use **Newton's 2nd law** ($F = ma$). Draw the free-body diagram, add forces, divide by mass.
+  </Accordion>
+
+  <Accordion title="Is the object just sitting there or moving at constant speed?" icon="scale-balanced">
+    Use **equilibrium**: net force = 0. All the forces have to cancel.
+  </Accordion>
+</AccordionGroup>
+
+In that order. Try energy and momentum first — they're shortcuts. Forces are the heavy machinery, only when you really need them.
+
+## Common mistakes (and how to dodge them)
+
+<Warning>
+  **Mixing units.** If your speeds are in km/h but your time is in seconds, you'll get nonsense. Convert everything to SI units (meters, kilograms, seconds) before plugging in.
+</Warning>
+
+<Warning>
+  **Forgetting gravity.** Anything near Earth's surface has gravity pulling down at 9.8 m/s². If you don't include it in your free-body diagram, you'll get a wrong answer.
+</Warning>
+
+<Warning>
+  **Confusing mass and weight.** Mass is in kilograms (kg). Weight is in newtons (N). They're not interchangeable.
+</Warning>
+
+<Warning>
+  **Ignoring direction.** "5 m/s" and "−5 m/s" are completely different velocities. Pick a positive direction at the start and stick to it.
+</Warning>
+
+## Cheat-sheet: the equations to know cold
+
+| Topic | Equation | Plain English |
+| --- | --- | --- |
+| Motion | New speed = old speed \+ acceleration×time |
+| Motion | Distance traveled while accelerating |
+| Motion | Speed after a distance, no time needed |
+| Force | Push equals stuff-times-speedup |
+| Weight | Weight = mass × gravity |
+| Energy | Energy of motion |
+| Energy | Energy stored by height |
+| Work | Force times distance |
+| Power | Energy per second |
+| Momentum | Oomph |
+| Pressure | Force per area |
+| Ohm's Law | Voltage = current × resistance |
+| Electric power | Power = voltage × current |
+| Waves | Speed = frequency × wavelength |
+
+If you really get these 13 equations — not memorize, but _understand why each one says what it says_ — you have the entire toolkit for high school physics and most of intro engineering.
+
+## Final advice from an engineer
+
+Physics doesn't reward speed. It rewards **slowing down.**
+
+When a problem feels overwhelming, you've skipped a step. Go back. Re-read. Re-draw. Re-list. The answer always comes once the picture in your head is clear.
+
+And remember the only thing that really matters:
+
+> **The universe follows rules. Once you know the rules, you can predict the future.**
+
+That's what physics is for. Welcome to the club.
+
+<Card title="Back to: Welcome" icon="house" href="/physics/welcome">
+  Revisit the table of contents.
+</Card>

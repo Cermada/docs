@@ -1,0 +1,137 @@
+---
+title: "Electricity and Magnetism"
+description: "The invisible forces that run your phone, your car, and even your nervous system."
+icon: "plug"
+---
+
+## Where it all starts: charge
+
+Everything is made of atoms. Atoms have:
+
+- **Protons** — positive charge (\+)
+- **Electrons** — negative charge (−)
+- **Neutrons** — no charge (neutral)
+
+Opposite charges _pull_ on each other. Same charges _push_ each other away. That's the entire foundation of electricity and magnetism.
+
+When you rub a balloon on your hair and it sticks to the wall, you transferred a few electrons from your hair to the balloon. The balloon is slightly negative, the wall is slightly more positive in response — and they attract. That's it. That's static electricity.
+
+## Current: charges on the move
+
+> **Electric current is the flow of electrons through a wire.**
+
+Measured in **amperes (A)** — one amp = a huge number of electrons (about 6 × 10¹⁸) passing a point each second.
+
+Think of a wire like a hose:
+
+- **Current (A)** = how much water flows per second.
+- **Voltage (V)** = the pressure pushing the water.
+- **Resistance (Ω, ohms)** = how narrow or clogged the hose is.
+
+This water analogy is rough but powerful. Most electrical intuition comes from it.
+
+## Ohm's Law: the one equation you need
+
+$V = IR$
+
+Voltage = Current × Resistance.
+
+Read it three ways:
+
+- More voltage → more current (push harder, more flow).
+- More resistance → less current (clog the hose, less flow).
+- Want to know voltage? Multiply current by resistance.
+
+With this single equation, you can analyze 90% of basic circuits.
+
+### Example
+
+A light bulb has 240 Ω of resistance and you plug it into 120 V.
+
+$I = \frac{V}{R} = \frac{120}{240} = 0.5 \text{ A}$
+
+Half an amp of current. From one tiny equation.
+
+## Power: how fast the energy is used
+
+For electric circuits, power is even simpler:
+
+$P = V \cdot I$
+
+That 120 V bulb at 0.5 A:
+
+$P = 120 \times 0.5 = 60 \text{ W}$
+
+A 60-watt bulb. The number on the package matches the math. Beautiful.
+
+This is why high voltage is used to transmit electricity over long distances — you can move the same power with much less current, which means much less wasted heat in the wires.
+
+## Circuits: two layouts that explain everything
+
+<CardGroup cols={2}>
+  <Card title="Series" icon="link-horizontal">
+    Components in a line. Same current goes through each one. Add resistances together.
+
+    _One bulb burns out and the whole string dies._ (Old Christmas lights.)
+  </Card>
+
+  <Card title="Parallel" icon="grip-lines-vertical">
+    Components on separate branches. Each gets the full voltage. Currents add up.
+
+    _One bulb burns out, the rest stay on._ (Your house wiring.)
+  </Card>
+</CardGroup>
+
+Every circuit on Earth is some combo of these two patterns. That's it.
+
+## Magnetism: the same thing, in disguise
+
+Here's the wild secret that took 200 years to figure out: **electricity and magnetism are the same force, seen from different angles.**
+
+The rules:
+
+<Steps>
+  <Step title="Moving charges create magnetic fields">
+    A current flowing through a wire creates a magnetic field around it. Wrap the wire in a coil and the field gets strong — that's an **electromagnet**. This is how motors, MRI machines, and electric door locks work.
+  </Step>
+  <Step title="Changing magnetic fields create electric currents">
+    Move a magnet near a coil of wire and electricity flows in the wire. _Without_ touching anything. This is called **electromagnetic induction**, and it's how every generator on the planet makes electricity — wind, hydro, coal, nuclear, all of them spin a magnet near coils.
+  </Step>
+  <Step title="This back-and-forth makes light">
+    A wiggling electric field makes a wiggling magnetic field, which makes a wiggling electric field, and so on — a self-sustaining wave that travels at the speed of light. That **is** light. Light is the wave that electricity and magnetism make together.
+  </Step>
+</Steps>
+
+<Tip>
+  This is why your phone works. Radio waves, Wi-Fi, Bluetooth, 5G — they're all the same kind of wave, just at different frequencies. Higher frequency: visible light. Even higher: X-rays. Lower than radio: nothing useful, but it's all the same phenomenon.
+</Tip>
+
+## A motor in one paragraph
+
+Put a coil of wire between two magnets. Run current through the coil. The current creates its own magnetic field, which fights the magnets' field. To resolve the fight, the coil spins. **Spinning coil = motor.** Every fan, drill, electric car, and washing machine is some version of this trick.
+
+Reverse it: spin the coil with an external force (wind, water, steam) instead of giving it current. The spinning coil in the magnetic field _generates_ a current. **Spinning coil = generator.** Every power plant on Earth.
+
+Motor and generator are the same machine, run in opposite directions. That symmetry is one of the most beautiful things in engineering.
+
+## AC vs. DC: the two flavors of electricity
+
+<CardGroup cols={2}>
+  <Card title="Direct Current (DC)" icon="battery-full">
+    Electrons flow steadily one direction. **Batteries, USB, electronics.**
+  </Card>
+
+  <Card title="Alternating Current (AC)" icon="wave-sine">
+    Electrons swing back and forth 50 or 60 times a second. **Wall outlets, the power grid.**
+  </Card>
+</CardGroup>
+
+We use AC for the grid because it's _very_ easy to step voltage up and down with transformers — which lets us send power across long distances efficiently. Your phone charger then converts that AC back into DC for the battery.
+
+## Why this matters to a mechanical engineer
+
+Electricity and magnetism are how mechanical force becomes electrical signals (sensors), and how electrical signals become mechanical motion (motors, solenoids, actuators). Pretty much every modern machine is part-mechanical, part-electromagnetic. If you understand both sides, you can build almost anything.
+
+<Card title="Next: Problem-Solving Toolkit" icon="arrow-right" href="/physics/problem-solving">
+  How an engineer actually attacks a physics problem from scratch.
+</Card>

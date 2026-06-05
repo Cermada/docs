@@ -31,7 +31,34 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Getting Started with Physics",
+        "icon": "atom",
+        "pages": [
+          "physics/welcome",
+          "physics/what-is-physics",
+          "physics/motion",
+          "physics/forces",
+          "physics/energy",
+          "physics/momentum",
+          "physics/gravity",
+          "physics/pressure-and-fluids",
+          "physics/heat-and-temperature",
+          "physics/waves-and-sound",
+          "physics/electricity-and-magnetism",
+          "physics/problem-solving"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

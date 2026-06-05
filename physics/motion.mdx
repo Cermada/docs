@@ -1,0 +1,143 @@
+---
+title: "Motion: How Things Move"
+description: "Speed, velocity, and acceleration explained so they finally make sense."
+icon: "person-running"
+---
+
+## Start with a question
+
+You're in a car going down the highway. The speedometer says 100 km/h. Simple, right?
+
+Now answer this: **are you moving?**
+
+- Compared to the road? Yes, 100 km/h.
+- Compared to the person in the passenger seat? **No. Not at all.** You're sitting still next to them.
+
+That's the first secret of motion: **motion is always _relative_ to something else.** There's no such thing as "just moving." You're always moving _compared to_ something.
+
+Keep that in your pocket. It explains a lot.
+
+## Speed vs. velocity (the real difference)
+
+School tells you these are different and then never explains why. Here's why.
+
+<CardGroup cols={2}>
+  <Card title="Speed" icon="gauge-high">
+    **How fast.** Just a number.
+
+    _"I'm going 60 km/h."_
+  </Card>
+
+  <Card title="Velocity" icon="location-arrow">
+    **How fast _and which way_.** A number plus a direction.
+
+    _"I'm going 60 km/h north."_
+  </Card>
+</CardGroup>
+
+### Why direction matters
+
+Imagine two cars, both doing 60 km/h, heading straight at each other. Same speed. But they're about to crash — because their **velocities are opposite.**
+
+Now imagine two cars doing 60 km/h side by side on the highway. Same speed, _same_ velocity. They'll never crash.
+
+Direction isn't a fussy detail. **Direction is the difference between a peaceful drive and a head-on collision.** That's why engineers always track it.
+
+<Tip>
+  Anything with a direction baked in is called a **vector**. Anything that's just a number is a **scalar**. Velocity = vector. Speed = scalar. You'll see those words a lot.
+</Tip>
+
+## Acceleration: the most misunderstood word in physics
+
+In everyday English, "accelerate" means "speed up." In physics, it means something bigger:
+
+> **Acceleration = any change in velocity.**
+
+That includes:
+
+- Speeding up (pressing the gas)
+- Slowing down (pressing the brake)
+- Turning (changing direction even at the same speed)
+
+Yes, **turning a corner at constant speed is acceleration.** That feels weird, but it's true — because your velocity (which includes direction) is changing.
+
+### The feeling test
+
+Here's a trick: **if your body feels pushed into the seat, you're accelerating.**
+
+- Floor it from a stoplight → pushed back → acceleration.
+- Slam the brakes → pushed forward → acceleration (just negative).
+- Sharp left turn → pushed right → acceleration.
+- Cruising on the highway → no push → **no acceleration**, even at 120 km/h.
+
+If nothing is pushing you, your velocity isn't changing. Simple as that.
+
+## The three equations that run everything
+
+For an object speeding up at a steady rate, three equations cover almost every problem. Don't memorize them yet — just read what they _mean_.
+
+<Steps>
+  <Step title="Final velocity">
+    $v = v_0 + at$
+
+    _"My new speed = my old speed \+ (how hard I'm accelerating × how long I've been doing it)."_
+
+    Floor a car at 3 m/s² for 5 seconds and you gained 15 m/s. Obvious when you read it slowly.
+  </Step>
+  <Step title="Distance traveled">
+    $d = v_0 t + \tfrac{1}{2} a t^2$
+
+    _"How far I went = how far I'd have gone at my old speed \+ the extra distance from speeding up."_
+
+    The $\tfrac{1}{2} a t^2$ part is the bonus distance you get because you're getting faster as you go.
+  </Step>
+  <Step title="Velocity from distance">
+    $v^2 = v_0^2 + 2ad$
+
+    _"If I don't care about time, just distance, here's how fast I'll be going."_
+
+    This one is gold for stopping-distance problems.
+  </Step>
+</Steps>
+
+## A worked example you can actually feel
+
+**Problem:** You're stopped at a red light. It turns green. You accelerate at 2 m/s². How fast are you going after 4 seconds, and how far did you travel?
+
+**Step 1 — picture it.** A car going from 0 to _something_. Pretty boring scene. Good.
+
+**Step 2 — list what you know.**
+
+- Starting speed $v_0 = 0$ m/s (you were stopped)
+- Acceleration $a = 2$ m/s²
+- Time $t = 4$ s
+
+**Step 3 — pick the recipe.**
+
+We want final speed → use equation 1.
+
+$v = 0 + (2)(4) = 8 \text{ m/s}$
+
+That's about 29 km/h. Reasonable for 4 seconds of gentle acceleration.
+
+We want distance → use equation 2.
+
+$d = (0)(4) + \tfrac{1}{2}(2)(4)^2 = 16 \text{ m}$
+
+You covered 16 meters. About 4 car-lengths. Also reasonable.
+
+<Check>
+  Notice we never "did physics." We pictured a car, listed what we knew, and picked the recipe that used those ingredients. That's the whole skill.
+</Check>
+
+## The biggest misconception
+
+> _"If something is moving, a force must be pushing it."_
+
+**False.** This is what Aristotle thought for 2,000 years and what your brain still secretly believes. The truth (Newton figured it out): **things in motion stay in motion** until something stops them. A hockey puck on perfect ice would slide forever.
+
+We'll unpack that on the next page, because it's the gateway to understanding _every_ force in the universe.
+
+<Card title="Next: Forces and Newton's Laws" icon="arrow-right" href="/physics/forces">
+  Why things start moving, stop moving, and push back when you push them.
+</Card>

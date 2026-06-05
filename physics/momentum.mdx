@@ -1,0 +1,122 @@
+---
+title: "Momentum"
+description: "Why a slow truck hits harder than a fast bicycle — and the rule that solves every collision."
+icon: "truck"
+---
+
+## The intuition first
+
+Which would you rather get hit by?
+
+- A bowling ball rolling slowly toward you.
+- A ping-pong ball flying at the same speed.
+
+Obviously the ping-pong ball. Even though they're moving at the same speed, the bowling ball has way more _oomph_.
+
+That "oomph" has a real name in physics: **momentum**.
+
+## The definition
+
+> **Momentum = mass × velocity.** $p = mv$
+
+That's it. The more massive something is and the faster it's moving, the more momentum it has.
+
+- A parked truck (huge mass, zero velocity) → zero momentum.
+- A bullet (tiny mass, huge velocity) → a lot of momentum.
+- A truck doing 60 km/h → enormous momentum.
+
+Momentum has a direction, just like velocity. North-bound momentum is different from south-bound momentum.
+
+## Why momentum matters: it's _conserved_
+
+This is the magic part. In any collision — any interaction at all — **the total momentum before equals the total momentum after.**
+
+$p_{\text{before}} = p_{\text{after}}$
+
+This is **conservation of momentum**, and it's as ironclad as conservation of energy. The universe is very strict about it.
+
+### Why is it conserved?
+
+Because of Newton's 3rd Law (remember? equal and opposite reactions). When two things collide, they push each other with equal and opposite forces for the exact same amount of time. So whatever momentum one object gains, the other loses. The total stays the same.
+
+Forget the proof if it doesn't click yet. Just trust the result: **momentum in = momentum out, always.**
+
+## The classic example: pool balls
+
+A white cue ball ($m = 0.17$ kg) rolls at 2 m/s and hits a stationary red ball of the same mass head-on.
+
+**Before:**
+
+- Cue ball: $p = 0.17 \times 2 = 0.34$ kg·m/s
+- Red ball: $p = 0$
+- **Total: 0.34 kg·m/s**
+
+**After (typical head-on collision):**
+
+- Cue ball: stops dead. $p = 0$
+- Red ball: rolls off at 2 m/s. $p = 0.34$ kg·m/s
+- **Total: 0.34 kg·m/s** ✅
+
+The momentum _transferred_ from the cue to the red ball. It didn't appear or vanish — it moved.
+
+This is exactly how Newton's cradle works (those clacking metal balls). Momentum gets shuffled from one end to the other.
+
+## Why a slow truck is scarier than a fast bicycle
+
+Let's do the numbers.
+
+| Vehicle | Mass | Speed | Momentum |
+| --- | --- | --- | --- |
+| Bicycle \+ rider | 80 kg | 20 m/s (72 km/h) | 1,600 kg·m/s |
+| Pickup truck | 2,000 kg | 5 m/s (18 km/h) | 10,000 kg·m/s |
+
+The truck is going **four times slower**, but has **six times the momentum**. That's why getting tapped by a slow truck still ruins your day.
+
+## Impulse: how to _change_ momentum
+
+To change something's momentum, you need a force applied over a period of time. That combination has a name: **impulse**.
+
+$\text{Impulse} = F \cdot t = \Delta p$
+
+A big force for a short time gives the same impulse as a small force for a long time — if the products are equal.
+
+### Why this is the most useful idea in safety engineering
+
+When a car crashes, the passenger's momentum has to go from "highway speed" to "zero." That's a fixed change in momentum, $\Delta p$. You can't avoid it.
+
+But you _can_ choose how that change happens:
+
+- **Hard, rigid car** → you stop in 0.01 seconds → enormous force → injury.
+- **Crumple zones \+ airbag** → you stop in 0.3 seconds → 30× less force → you walk away.
+
+Same momentum change. Just stretched over more time. **That's why airbags save lives.** Not because they're soft — because they slow the _rate_ of momentum change.
+
+Every time you bend your knees when jumping off something, you're doing the same trick. Stretching the impact over more time = less force.
+
+## Types of collisions (quick tour)
+
+<AccordionGroup>
+  <Accordion title="Elastic collision" icon="baseball">
+    Objects bounce apart cleanly. **Both** momentum and kinetic energy are conserved. Examples: pool balls, perfect rubber balls.
+  </Accordion>
+
+  <Accordion title="Inelastic collision" icon="car-burst">
+    Objects stick together or deform. Momentum is still conserved — but some kinetic energy turns into heat, sound, and crumple-damage. Examples: a car crash, a tackle in football.
+  </Accordion>
+
+  <Accordion title="Explosion" icon="bomb">
+    The reverse of a collision. One object splits into pieces flying apart. Started with zero momentum? Then the pieces' momenta still add to zero — they go in opposite directions. That's why guns recoil.
+  </Accordion>
+</AccordionGroup>
+
+## The mental shortcut
+
+Whenever you see a collision problem, ignore the chaos in the middle. Just compare **before** and **after**:
+
+> Total momentum before = total momentum after.
+
+That single sentence solves problems that would take a page of force calculations.
+
+<Card title="Next: Gravity" icon="arrow-right" href="/physics/gravity">
+  The force you've been feeling every second of your life.
+</Card>
